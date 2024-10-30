@@ -1,0 +1,35 @@
+body {
+    font-family: 'Garamond', serif;
+    background-color: #1c1c1c;
+    color: #e0e0e0;
+    text-align: center;
+}
+#juegoCanvas {
+    border: 2px solid #4b0082;
+    cursor: url('img/perezoso.png') 16 16, auto;
+
+}
+#contador, #instrucciones {
+    margin: 10px;
+    font-size: 1.2em;
+    color: #c0c0c0;
+}
+header, footer {
+    background-color: #2f2f2f;
+    color: #e0e0e0;
+    padding: 20px;
+    border-bottom: 2px solid #4b0082;
+    border-top: 2px solid #4b0082;
+}
+h1 {
+    font-family: 'Blackletter', serif;
+    font-size: 2.5em;
+    color: #b22222;
+}
+footer p {
+    font-style: italic;
+    font-size: 1.5em;
+}
+audio#musicaFondo {
+    display: none;
+}
